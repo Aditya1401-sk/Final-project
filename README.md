@@ -2,7 +2,7 @@
 Dream Stay is a stylish and responsive hotel booking platform designed to provide users with a seamless experience when searching for and reserving their perfect stay. Whether you're planning a weekend getaway or a dream vacation, Dream Stay helps you book with confidence and ease.
 
 ## ✨ Features
-###🔍 Smart Search & Filters
+### 🔍 Smart Search & Filters
 Find hotels by location, rating, amenities, and price — fast and easy.
 
 ### 🛏️ Real-Time Availability
