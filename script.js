@@ -1,6 +1,13 @@
 document.getElementById("booking-form").addEventListener("submit", function(e) {
     e.preventDefault();
 
+    // Check if user is logged in
+    if (!localStorage.getItem('isLoggedIn')) {
+        alert("You must be logged in to book a room.");
+        window.location.href = "login.html";
+        return;
+    }
+
     const name = this.elements[0].value;
     const email = this.elements[1].value;
     const room = this.elements[2].value;
